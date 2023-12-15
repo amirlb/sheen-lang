@@ -2,7 +2,7 @@
 layout:     post
 author:     Amir
 title:      "Starting out"
-date:       2023-12-15 00:12:39 +0200
+date:       2023-12-15 12:39:20 +0200
 categories: announcement
 ---
 
