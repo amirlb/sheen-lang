@@ -48,6 +48,9 @@ collections:
     permalink: /:collection/:year/:month/:day/:title/
 show_excerpts: true
 
+header_pages:
+  - blog.md
+
 exclude:
   - Gemfile
   - Gemfile.lock
