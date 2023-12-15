@@ -2,6 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
-title: Development blog
+layout: base
 ---
+
+Site for the Sheen Programming Language: an allocation-aware scripting language.
+
+Under construction.

@@ -29,10 +29,10 @@ description: >-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Build settings
 remote_theme: jekyll/minima
-# theme: minima
 minima:
   skin: auto
   social_links:
@@ -40,7 +40,15 @@ minima:
    - { platform: mastodon,       user_url: "https://mathstodon.xyz/@Pashhur" }
 
 timezone: Asia/Tel_Aviv
-permalink: /:collection/:year/:month/:day/:title/
+
+future: true
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+  drafts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
 
 exclude:
   - Gemfile
