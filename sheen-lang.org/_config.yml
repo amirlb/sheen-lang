@@ -46,6 +46,7 @@ collections:
   drafts:
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+show_excerpts: true
 
 exclude:
   - Gemfile

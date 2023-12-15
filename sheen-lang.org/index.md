@@ -5,6 +5,20 @@
 layout: base
 ---
 
-Site for the Sheen Programming Language: an allocation-aware scripting language.
+# Features
 
-Under construction.
+* Lifetime tracking without headaches
+* Garbage collection
+* Zero-cost abstractions
+* Multi-type traits
+* Higher-order module system
+* Fast macros
+
+# Status
+
+The language is not fully defined right now, details are being fleshed out while
+developing the prototype implementation.
+
+# Development blog
+
+Read the latest news in the [development blog](/blog).
