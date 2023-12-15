@@ -33,8 +33,8 @@ remote_theme: jekyll/minima
 minima:
   skin: auto
   social_links:
-   - { platform: github,         user_url: "https://github.com/amirlb" }
-   - { platform: mastodon,       user_url: "https://mathstodon.xyz/@Pashhur" }
+   - { platform: github,    user_url: "https://github.com/amirlb/sheen-lang" }
+   - { platform: mastodon,  user_url: "https://mathstodon.xyz/@Pashhur" }
 
 timezone: Asia/Tel_Aviv
 
