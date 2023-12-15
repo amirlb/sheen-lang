@@ -19,23 +19,28 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Sheen Programming Language
-email: amir.livne.baron@gmail.com
+author:
+  name: Amir Livne Bar-On
+  email: amir.livne.baron@gmail.com
+
 description: >-
   An allocation-aware scripting language: Documentation and development blog
-baseurl: ""
-url: "https://www.sheen-lang.org"
-github_username: amirlb
-
-# Build settings
-remote_theme: jekyll/minima
-minima:
-  skin: auto
-
-timezone: Asia/Tel_Aviv
-permalink: /:collection/:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+remote_theme: jekyll/minima
+# theme: minima
+minima:
+  skin: auto
+  social_links:
+   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+   - { platform: mastodon,       user_url: "https://mathstodon.xyz/@Pashhur" }
+
+timezone: Asia/Tel_Aviv
+permalink: /:collection/:year/:month/:day/:title/
 
 exclude:
   - Gemfile
