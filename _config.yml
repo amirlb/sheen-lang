@@ -19,12 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Sheen Programming Language
-author:
-  name: Amir Livne Bar-On
-  email: amir.livne.baron@gmail.com
 
 description: >-
-  An allocation-aware scripting language: Documentation and development blog
+  Sheen: an allocation-aware scripting language
 
 plugins:
   - jekyll-feed
