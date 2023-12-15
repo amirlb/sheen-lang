@@ -1,6 +1,6 @@
 use std::path::Path;
 use std::io;
-use std::io::{Error, ErrorKind};
+use std::io::ErrorKind;
 
 mod ast;
 mod parse_result;
@@ -16,7 +16,7 @@ const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 fn run() -> io::Result<()> {
     let args: Vec<String> = std::env::args().collect();
     if args.len() != 2 {
-        return Err(Error::new(ErrorKind::InvalidInput, "Please provide a single argument"));
+        return Err(io::Error::new(ErrorKind::InvalidInput, "Please provide a single argument"));
     }
 
     match args[1].as_str() {
