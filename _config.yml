@@ -31,6 +31,7 @@ remote_theme: jekyll/minima
 minima:
   skin: auto
 
+timezone: Asia/Tel_Aviv
 permalink: /:collection/:year/:month/:day/:title/
 
 plugins:
