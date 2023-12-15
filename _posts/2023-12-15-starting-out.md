@@ -11,7 +11,9 @@ What's going on here?
 I was on vacation this week, and once my mind was off work it started
 considering the design choices made in Rust, which I learned recently.
 There are a lot of interesting concepts there: lifetimes, the trait
-system, and how aggressive inlining can make abstractions zero-cost.
+system, and how aggressive type-directed inlining can lead to abstractions
+that don't have runtime cost.
+
 
 We should recognize the earlier work on the same concepts: region
 tracking, type classes and the lambda papers. But the phrasing of these
