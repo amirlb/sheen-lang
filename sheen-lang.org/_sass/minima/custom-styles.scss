@@ -1,0 +1,16 @@
+.site-title {
+    position: absolute;
+    padding-left: 2em;
+    font-size: calc(min(1.625rem, 5.2vw));
+}
+
+.site-title:before {
+    width: 1.5em;
+    height: 1.5em;
+    content: "";
+    position: absolute;
+    top: calc(1.6rem - 0.75em);
+    left: 0;
+    background-image: url('/assets/sheen-logo.png');
+    background-size: contain;
+}
